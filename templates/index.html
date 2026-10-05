@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Web</title>
+    <!-- Link para um visual moderno via Bootstrap -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card-teste {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .btn-custom {
+            background-color: #6f42c1;
+            color: white;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #59359a;
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card card-teste p-5 bg-white">
+                    <div class="mb-4">
+                        <span class="fs-1">🚀</span>
+                    </div>
+                    <h1 class="fw-bold text-dark mb-3">Meu Primeiro Site Python</h1>
+                    <p class="text-secondary mb-4">
+                        Este site foi desenvolvido utilizando a biblioteca <strong>Flask</strong> e está pronto para ser publicado gratuitamente na internet!
+                    </p>
+                    <a href="https://render.com" target="_blank" class="btn btn-custom btn-lg w-100 py-3 fw-bold">
+                        Pronto para o Próximo Passo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
